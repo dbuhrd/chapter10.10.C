@@ -1,11 +1,9 @@
 console.log("A.");
 function makeLine(size){
-  //size = number of #s;
   let line = '';
   for (let i=0; i< size; i++){
     line += '#';
   }
-
   return line;
 }  
 console.log(makeLine(5));
@@ -41,3 +39,17 @@ function makeRect(width, height) {
    }
    return rectangle.slice(0, -1);
 }
+console.log(makeRect(5, 3));
+
+console.log('D.');
+
+function makeSquare(width, height){
+  //let lines = [];
+  //size = width
+  //size = height
+  square = makeRectangle(width, height);
+  return square
+
+}
+console.log(makeSquare(5, 5));
+console.log(makeSquare(3,3));
